@@ -9,7 +9,7 @@ x2 = float(input("Enter x2 value: "))
 y2 = float(input("Enter y2 value: "))
 
 # Process the distance between points
-distance = (((x2 - x1) **2 + (y2 - y1)) ** 1/2)
+distance = (((x2 - x1) **2 + (y2 - y1) **2) ** 1/2)
 distance_rounded = round(distance, 2)
 
 # Output the distance between the two points
